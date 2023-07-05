@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Alta de Empleados</title>
+    <style>
+        body {
+            background-image: url('https://media.licdn.com/dms/image/D4D03AQGxlsspS6bW1g/profile-displayphoto-shrink_800_800/0/1668792226995?e=2147483647&v=beta&t=YlPIIADnD0nybOrBA3OhcNaaOVTM7SfnNIj00t_kK5k');
+            background-size: 30%; /* Ajusta el tamaño de la imagen (puedes cambiar el valor según lo desees) */
+            background-repeat: no-repeat; /* Evita que se repita la imagen */
+            background-position: center center; /* Centra la imagen horizontal y verticalmente */
+            background-attachment: fixed; /* Mantiene la imagen fija mientras se desplaza el contenido */
+        }
+        .header-banner {
+            background-color: #007BFF;
+            color: #FFF;
+            text-align: center;
+            padding: 10px;
+        }
+        .header-text {
+            font-size: 24px;
+        }
+        .footer-container {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #007BFF;
+            color: #FFF;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header-banner">  
+    <h1>Alta de Empleados</h1>
+    <form method="post" action="/alta_empleados">
+        <label for="codigo">Código:</label>
+        <input type="text" id="codigo" name="codigo" required>
+        <br>
+        <label for="primer_nombre">Primer Nombre:</label>
+        <input type="text" id="primer_nombre" name="primer_nombre" required>
+        <br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required>
+        <br>
+        <label for="numero_documento">Número de Documento:</label>
+        <input type="text" id="numero_documento" name="numero_documento" required>
+        <br>
+        <input type="submit" value="Dar de Alta Empleado">
+        <a href="/">Volver al inicio</a> <!-- Enlace que apunta al index.html -->
+    </form>
+    <div class="footer-container">
+        <p>Desarrollado por ING Alex Serrano</p>
+    </div>
+</body>
+</html>
