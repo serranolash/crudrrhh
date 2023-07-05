@@ -16,7 +16,7 @@ API_URL = "http://190.220.155.74:8008/api.Dragonfish/"
 HEADERS = {
     "IdCliente": "APIALEX",
     "BaseDeDatos": "",
-    "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDY5MDAwNTMsInVzdWFyaW8iOiJBRE1JTiIsInBhc3N3b3JkIjoiMWFmMjBlZjg2OTkyMjQzNTVlN2M1ZDcxNjBjYmUyMDM5MjBlZTgwZTVmODlkMWY2Mzk5NDVhNDY5YzQ5YWQyYSJ9.bQw_DdHDl3mThtPacAX24GS0YXcnAbEnB_2lR9N0HJU"
+    "Authorization": ""
 }
 # Modelo de usuario para el login
 class User(UserMixin):
